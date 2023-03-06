@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.btn{
+    height: 40px;
+    background: green;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: inset -3px -3px 8px rgba(255, 255, 255, 0.3), 
+    inset 3px 3px 8px rgba(30, 30, 30, 0.5);
+    display: grid;
+    place-content: center;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+span{
+    color: #fff;
+}
+
+.container{
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+
+audio{
+    width: 100%;
+}
+
+.text{
+    height: 150px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.myContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.btn{
+    width: 140px;
+    background-color: green;
+    border-radius: 5px;
+    margin-top: 25px;
+    transition: 0.3s all ease-in-out;
+}
+
+.btn:hover{
+    background: rgb(1, 135, 1)
+}
+
+.alMulkPng{
+    width: 250px;
+    place-items: center;
+}   
+
+.icon{
+    position: absolute;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 25px;
+}
+
+.icon a{
+    color: #fff;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .show-on-medium {
+      display: block !important;
+    }
+    .alMulkPng {
+            width: 350px !important;
+    }
+  }
+
+  @media only screen and (min-width: 993px) {
+    .alMulkPng {
+        width: 380px !important;
+    }
+  }
